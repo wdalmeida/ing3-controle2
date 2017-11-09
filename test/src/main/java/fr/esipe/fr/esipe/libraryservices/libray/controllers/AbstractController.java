@@ -17,7 +17,7 @@ import java.util.Optional;
  *      PUT    resources/id
  *      DELETE resources/id
  *
- * @author Gokan EKINCI
+ * @author Warren D'ALMEIDA
  */
 public abstract class AbstractController<DTO, ID extends Serializable, ABSTRACT_DAO extends AbstractDAO<DTO, ?, ID>> {
     private final ABSTRACT_DAO dao;
